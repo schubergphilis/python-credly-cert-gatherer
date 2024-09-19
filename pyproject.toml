@@ -1,0 +1,36 @@
+[project]
+requires-python = ">=3.12"
+name = "credly-scraper"
+version = "0.1"
+dependencies = [
+  "requests",
+]
+
+[project.optional-dependencies]
+# These requirements are either already met by the layers we use in the Lambda
+# or not needed when running in AWS
+dev = [
+  "aws-lambda-context",
+  "pip-tools",
+  "ruff",
+  "validate-pyproject",
+  "black"
+]
+
+[tool.setuptools]
+py-modules = []
+
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+# Enable:
+# - Pycodestyle ("E")
+# - Pyflakes ("F")
+# - Pydocstyle ("D)
+# - flake8-bugbear ("B")
+# - Isort ("I")
+select = ["E", "F", "D", "B", "I"]
+ignore = ["D211", "D213", "D400", "D415","E722", "D103", "D100"]
+

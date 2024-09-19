@@ -1,0 +1,62 @@
+cert_id,cert_name
+6069fb52-0c27-42d7-852b-6aa86ea45e81,AWS Certified Cloud Practitioner
+54225396-3c1a-44b6-ba14-9fe2f812842b,AWS Certified Solutions Architect – Associate
+ac872ccd-75ef-4946-9f3e-decc233daa5b,AWS Certified Developer – Associate
+6b1c7b5a-d668-48a5-9dfd-e5de1c432c31,AWS Certified Solutions Architect – Professional
+814f73aa-6ad7-4dea-8895-121134113997,AWS Certified SysOps Administrator – Associate
+614ce649-5d1e-4a98-81e4-f24b727dbeb9,AWS Certified Security – Specialty
+216500a6-0ec6-40be-935c-254379a9a504,AWS Certified DevOps Engineer – Professional
+13cec018-2fdf-4bf4-b28e-6be2eb1976fd,AWS Certified Machine Learning – Specialty
+114d6f12-244d-4b99-9967-7cf31381c975,AWS Certified Advanced Networking – Specialty
+20f61a9f-06ff-43ad-ada3-b553e0189295,AWS Certified Data Engineer – Associate
+91edae4e-83ec-40a1-9dff-7dd102bbe418,AWS Certified AI Practitioner
+c6fc4fc3-4b4c-4f95-92e2-59c29ac0e451,AWS Certified Machine Learning Engineer – Associate
+e0997fd0-d532-4ba0-a8a7-ee6cc6c7b8e9,Microsoft Certified: Azure Fundamentals
+4c50ee80-8073-4244-a1d9-0faaa3789d3b,Microsoft Office Specialist: Excel Associate (Office 2019)
+36ea0e2e-4935-4195-bd5b-752fc61ebd9d,Microsoft Office Specialist: Word (Office 2016)
+09854fce-57f8-436b-bd58-4fe2b195ba29,Microsoft Certified: Azure Data Fundamentals
+55dfd754-f1e0-4f62-bad5-de68fdd2f9b3,Microsoft Office Specialist: Excel (Office 2016)
+e038aeff-f695-414f-9a8e-0ba4d4ff54fe,Microsoft Certified: Azure AI Fundamentals
+77e993c9-c359-4e94-9944-855fdf7f1253,Microsoft Office Specialist: PowerPoint (Office 2016)
+4efd7b53-8925-4dbf-a853-5b4c5045bb50,Microsoft Office Specialist: Word Associate (Office 2019)
+778db280-4976-41e4-9eaa-f8834a0a8d46,Microsoft Certified: Security, Compliance, and Identity Fundamentals
+ec5a1b61-7c46-42cb-82a9-6ce5223727ba,Microsoft Office Specialist: Word 2013
+a79f7956-6931-41dd-b22f-14b1ed3688b5,Microsoft Certified: Power Platform Fundamentals
+eb178496-4bcf-45d5-8a35-858a1da0f081,Microsoft 365 Certified: Fundamentals
+ef050d6b-8920-4209-bebf-4f6fb1933ae2,Microsoft Office Specialist: PowerPoint Associate (Office 2019)
+a0e22853-74fe-4191-beb3-af88da142851,Microsoft Office Specialist: Excel 2013
+13096f30-550a-4f6f-a094-fd1ab6aa2ec4,Microsoft Office Specialist: PowerPoint 2013
+31e4db0d-48e8-4df9-9c70-44cfeaeec273,Microsoft Office Specialist: Associate (Office 2019)
+0c20a8f6-dbaa-4db5-9945-773212ac7639,Microsoft Office Specialist: Excel Expert (Office 2016)
+84cdbce7-8e71-462e-83f4-eb20b554a027,Microsoft Office Specialist: Microsoft Excel Expert (Office 2019)
+61c1a25a-6e36-4891-9e97-dec74873b5cc,MCE: Microsoft Certified Educator
+37fa7f2e-a640-41d1-a9a8-b8a2c3e8c4aa,Microsoft Office Specialist: Word Expert (Office 2016)
+dabda7cf-65fc-4881-90e4-082a46ff9aea,Microsoft Office Specialist: Outlook (Office 2016)
+5377df08-3a56-4666-9786-b18efed42509,Microsoft Certified Trainer 2022-2023
+75df5bd8-b31c-432c-bcc4-77183b4082bd,Microsoft Certified: Dynamics 365 Fundamentals (CRM)
+82d2c7f8-88a4-4a12-a854-30544998ff1c,Microsoft Office Specialist: Access (Office 2016)
+316965df-8c8a-4266-afcb-7188ccc94f31,Microsoft Office Specialist: Outlook Associate (Office 2019)
+ce1ecce4-6dbf-4ed4-8e52-67c3c245fa8b,Microsoft Office Specialist: 2016 Master
+3846ee6a-0db8-4fc6-a627-d2876f95af04,Microsoft Office Specialist: Excel Associate (Microsoft 365 Apps)
+11a27533-5d79-4fe4-90ec-7fb220d19b48,Microsoft Office Specialist: Microsoft Word Expert (Office 2019)
+cae80aa4-06bb-497f-bdee-d374d376c96d,Microsoft Certified Trainer 2023-2024
+1c1d39bf-f727-4542-a703-3a75f3427ba9,Microsoft Office Specialist: Access 2013
+d1c001ee-75d0-45e3-966a-ccfe592d6b30,Microsoft Certified: Dynamics 365 Fundamentals (ERP)
+85614017-36ce-4888-9c37-061ff3d93d6f,Microsoft Office Specialist: Word Associate (Microsoft 365 Apps)
+a70b3ed7-6329-4a3e-baee-0b9161a4e19f,Microsoft Office Specialist: Expert (Office 2019)
+60a65ea6-56b6-49f7-85eb-3f7013c9e715,Microsoft Office Specialist: PowerPoint Associate (Microsoft 365 Apps)
+46738398-4a2e-46c4-9c47-cf7c4372fe43,Microsoft Office Specialist: Microsoft Access Expert (Office 2019)
+56b4325c-c744-4615-9b56-c5d69d36db70,Microsoft Office Specialist: Master 2013
+7736a43d-300a-4f74-82a5-eceda1d58dfc,Microsoft Office Specialist: Outlook 2013
+6d463ab1-b385-4d10-95cf-9c4142e2db11,Microsoft Office Specialist: Excel 2013 Expert
+a958a87a-a2d1-408f-b2d9-60d7def98fe6,Microsoft Office Specialist: Associate (Microsoft 365 Apps)
+144a936b-f253-45dd-80e0-fcb6431bc7c5,Microsoft Office Specialist: Word 2013 Expert
+0bf64c93-00d2-4ff0-8759-77ff350b1b9d,Microsoft Office Specialist: OneNote 2013
+e780e1ee-1734-467b-b7de-50fe17eb7c77,Microsoft Office Specialist: Excel Expert (Microsoft 365 Apps)
+1a43f949-91d1-4eb1-94f0-b8e39d782f19,Microsoft Office Specialist: SharePoint 2013
+59ef88c6-c7d1-403c-993e-4712b0e0d35b,Microsoft Office Specialist: Word Expert (Microsoft 365 Apps)
+5878316b-1304-4a00-a0f5-fa8044f7d613,Microsoft Cloud Sales Academy
+c7c43ddb-a978-4aee-bb35-4f0d09d7267c,Microsoft Office Specialist: Expert (Microsoft 365 Apps)
+34c2e950-342d-4c7e-967b-1036194b92a6,Artificial Intelligence Practitioner
+d167e8c3-3d48-4cf3-94e4-b45ae750a83e,Microsoft Cloud Sales Academy - Trainer
+e797785f-40c3-42f8-9d10-6a903738fa33,AZ-101 Microsoft Azure Integration and Security
