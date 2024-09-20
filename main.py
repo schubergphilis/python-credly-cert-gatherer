@@ -71,7 +71,7 @@ def fetch_ms_certifications(ms_transcript_id: str) -> list:
                 "badge_id": cert.get("certificationNumber"),
                 "badge_name": cert.get("name"),
                 "expires_at": cert.get("expiration"),
-                "source": "Microsoft",  # Add source field
+                "source": "Microsoft", 
             }
             certifications.append(certification)
     else:
