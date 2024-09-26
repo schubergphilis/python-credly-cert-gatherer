@@ -3,7 +3,7 @@ import requests
 import yaml
 
 PLATFORM_NAME_CREDLY = "CREDLY"
-PLATFORM_NAME_MS = "Microsoft"
+PLATFORM_NAME_MS = "MICROSOFT"
 PLATFORM_NAME_AZURE = "AZURE"
 
 config_azure_file = "azure.yml"
@@ -104,8 +104,7 @@ def get_source_for_ms(ms_cert) -> str:
             or ms_cert["badge_name"] == cert["cert_name"]
         ):
             return PLATFORM_NAME_AZURE
-        
-   
+
     for cert in config_azure_data["blacklist"]:
         if (
             ms_cert["badge_id"] == cert["cert_id"].strip()
