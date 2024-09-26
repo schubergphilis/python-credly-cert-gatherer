@@ -72,20 +72,26 @@ def get_credly_badges_of(url: str, source: str, per_page: int = 48):
 
 def get_certs() -> list:
     certs = []
+    cert_ids = set()  # To track unique cert_ids
 
     config_file = "credly.yml"
     with open(config_file, "r") as file:
         config_data = yaml.safe_load(file)
+
     if config_data["whitelist"]:
         for whitelist in config_data["whitelist"]:
             if not whitelist.get("cert_name") or not whitelist.get("cert_id"):
                 logging.warning(
-                    "Whitelist is invalid please check cert_name or cert_id is missing"
+                    "Whitelist is invalid, please check cert_name or cert_id is missing"
                 )
                 continue
-            whitelist["source"] = "whitelist"
-            whitelist["platform"] = PLATFORM_NAME_CREDLY
-            certs.append(whitelist)
+
+            cert_id = whitelist["cert_id"]
+            if cert_id not in cert_ids:
+                whitelist["source"] = "whitelist"
+                whitelist["platform"] = PLATFORM_NAME_CREDLY
+                certs.append(whitelist)
+                cert_ids.add(cert_id)  # Mark cert_id as added
 
     if config_data["collections"]:
         for collection in config_data["collections"]:
@@ -94,7 +100,11 @@ def get_certs() -> list:
                 "Collection: "
                 + get_value_of_html_tag(collection, "ac-heading ac-heading--subhead"),
             )
-            certs.extend(collection_badges)
+            for badge in collection_badges:
+                cert_id = badge["cert_id"]
+                if cert_id not in cert_ids:
+                    certs.append(badge)
+                    cert_ids.add(cert_id)
 
     if config_data["organizations"]:
         for organization in config_data["organizations"]:
@@ -106,7 +116,11 @@ def get_certs() -> list:
                     "ac-heading ac-heading--badge-name-hero organization_header__title ac-heading--serif-primary-large",
                 ),
             )
-            certs.extend(organization_badges)
+            for badge in organization_badges:
+                cert_id = badge["cert_id"]
+                if cert_id not in cert_ids:
+                    certs.append(badge)
+                    cert_ids.add(cert_id)
 
     if config_data["blacklist"]:
         blacklist_ids = {
@@ -123,6 +137,7 @@ def get_certs() -> list:
             and cert.get("cert_name") not in blacklist_names
         ]
         certs = filtered_certs
+
     return certs
 
 
