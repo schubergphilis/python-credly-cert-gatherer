@@ -10,6 +10,8 @@ charset-normalizer==3.3.2
     # via requests
 idna==3.10
     # via requests
+pyyaml==6.0.2
+    # via credly-scraper (pyproject.toml)
 requests==2.32.3
     # via credly-scraper (pyproject.toml)
 urllib3==2.2.3

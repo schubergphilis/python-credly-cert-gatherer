@@ -8,12 +8,6 @@ aws-lambda-context==1.1.0
     # via credly-scraper (pyproject.toml)
 black==24.8.0
     # via credly-scraper (pyproject.toml)
-boto3==1.35.22
-    # via credly-scraper (pyproject.toml)
-botocore==1.35.22
-    # via
-    #   boto3
-    #   s3transfer
 build==1.2.2
     # via pip-tools
 certifi==2024.8.30
@@ -28,10 +22,6 @@ fastjsonschema==2.20.0
     # via validate-pyproject
 idna==3.10
     # via requests
-jmespath==1.0.1
-    # via
-    #   boto3
-    #   botocore
 mypy-extensions==1.0.0
     # via black
 packaging==24.1
@@ -48,20 +38,14 @@ pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
-python-dateutil==2.9.0.post0
-    # via botocore
+pyyaml==6.0.2
+    # via credly-scraper (pyproject.toml)
 requests==2.32.3
     # via credly-scraper (pyproject.toml)
 ruff==0.6.5
     # via credly-scraper (pyproject.toml)
-s3transfer==0.10.2
-    # via boto3
-six==1.16.0
-    # via python-dateutil
 urllib3==2.2.3
-    # via
-    #   botocore
-    #   requests
+    # via requests
 validate-pyproject==0.19
     # via credly-scraper (pyproject.toml)
 wheel==0.44.0
