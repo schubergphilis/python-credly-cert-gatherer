@@ -4,6 +4,8 @@ name = "credly-scraper"
 version = "0.1"
 dependencies = [
   "requests",
+  "pyyaml",
+  "beautifulsoup4"
 ]
 
 [project.optional-dependencies]

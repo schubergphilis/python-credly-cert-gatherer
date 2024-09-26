@@ -1,0 +1,8 @@
+# Add things that should be AZURE
+whitelist:
+  - cert_id: 6ea45e81,
+    cert_name: DOES NOT CONTAIN azure
+# Add things that should not be AZURE
+blacklist:
+  - cert_id: FAKE_DOES_NOT_EXIST
+    cert_name: FAKE_DOES_NOT_EXIST
